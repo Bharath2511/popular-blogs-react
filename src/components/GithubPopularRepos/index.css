@@ -1,0 +1,32 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.repos-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70vw;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    max-width: 350px;
+  }
+}

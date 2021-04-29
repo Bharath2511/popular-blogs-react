@@ -1,0 +1,42 @@
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 30%;
+  background-color: #f8f8ff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.name {
+  font-size: 24px;
+  color: #e73959;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.stars-container,
+.forks-container,
+.issues-count {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.stars-image,
+.forks-image,
+.issues-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .repo-card {
+    width: 100%;
+  }
+}
